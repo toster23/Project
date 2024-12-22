@@ -1,0 +1,56 @@
+.gt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
+	text-align: center;
+	background-color: #1caeb0;
+}
+.gh {
+	color: white;
+	border-color: rgb(255, 255, 255);
+	background-color: #153131;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 50px 20px;
+	font-size: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 150px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gh:hover {
+	background-color: #ffffff;
+	color: #153131;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.ai {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
+	text-align: center;
+	background-color: #000000;
+	color: white;
+	border-color: #000000;
+}
+.hl {
+	border-radius: 20px;
+	margin: 10px;
+	padding: 50px 20px;
+	font-size: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 150px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: help;
+}
+.hl:hover {
+	background-color: #79ebfa;
+	color: #9b2525;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}

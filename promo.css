@@ -1,0 +1,50 @@
+.gh {
+	color: white;
+	border-color: rgb(255, 255, 255);
+	background-color: #153131;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 50px 20px;
+	font-size: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 150px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gh:hover {
+	background-color: #ffffff;
+	color: #153131;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.gt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
+	text-align: center;
+	background-color: #1caeb0;
+}
+.bnm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: cornflowerblue;
+}
+.jnb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: cornflowerblue;
+	color: white;
+	margin-top: 0px;
+}
+.jnb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: cornflowerblue;
+	color: white;
+	margin-top: 0px;
+}

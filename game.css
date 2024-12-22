@@ -1,0 +1,80 @@
+.game {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	width: 460px;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: white;
+	background-color: gray;
+}
+.hj {
+	color: rgb(0, 0, 0);
+	border-color: rgb(137, 173, 197);
+	background-color: #4fd6ff;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 50px 20px;
+	font-size: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 150px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hj:hover {
+	background-color: #000000;
+	color: #ffffff;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.lk {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	background-color: #153131;
+	color: white;
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 30px;
+	top: 0;
+	z-index: 100;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s ease;
+}
+.gt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
+	text-align: center;
+	background-color: #1caeb0;
+}
+.gh {
+	color: white;
+	border-color: rgb(255, 255, 255);
+	background-color: #153131;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 50px 20px;
+	font-size: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 150px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gh:hover {
+	background-color: #ffffff;
+	color: #153131;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
